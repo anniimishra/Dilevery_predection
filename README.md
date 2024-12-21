@@ -4,12 +4,12 @@ This project provides a REST API to predict shipment delays based on weather and
 Features
 Predict shipment delays (Delayed or On Time).
 Encodes categorical inputs like weather and traffic conditions using LabelEncoder.
-Provides validation for input data. 
-
+Provides validation for input data.
 API Endpoints
 1. Prediction Endpoint
 URL: /predict
 Method: POST
+
 Payload:
 
 json
@@ -28,6 +28,7 @@ Copy code
 2. Health Check Endpoint
 URL: /
 Method: GET
+
 Response:
 
 json
